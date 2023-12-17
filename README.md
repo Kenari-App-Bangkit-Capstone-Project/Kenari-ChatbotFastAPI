@@ -10,7 +10,7 @@
 
 2. Masuk ke folder Project:
     ```bash
-    cd Kenari-ChatbotFlaskAPI
+    cd Kenari-ChatbotFastAPI
     ```
 
 3. Instal dependensi:
