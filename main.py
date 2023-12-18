@@ -7,11 +7,7 @@ from pydantic import BaseModel
 
 from src.model_response import model_response
 
-__title__ = "Mental Health Chatbot Machine Learning API"
-__description__ = "Mental Health Chatbot Machine Learning API with FastAPI"
-__version__ = "0.0.1"
-
-app: FastAPI = FastAPI(title=__title__, description=__description__, version=__version__)
+app: FastAPI = FastAPI()
 
 class UserInput(BaseModel):
     user_input: str
