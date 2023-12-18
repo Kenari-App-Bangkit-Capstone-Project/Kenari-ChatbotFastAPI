@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 from src.model_response import model_response
 
-app: FastAPI = FastAPI()
+app = FastAPI()
 
 class UserInput(BaseModel):
     user_input: str
